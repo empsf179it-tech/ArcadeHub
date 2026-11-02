@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArcadeHub | Gaming & Esports Lounge</title>
+  <link rel="icon" type="image/svg+xml" href="Assests/images/favicon.svg">
+  <meta name="description" content="ArcadeHub is a premium gaming and esports lounge for PC, console, arcade, VR, racing and private parties.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@400;500;600;700&family=Orbitron:wght@500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="cursor" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="nav-bar">
+      <a class="logo" href="index.html"><svg class="brand-logo" viewBox="0 0 64 64" width="38" height="38" aria-hidden="true" focusable="false"><defs><linearGradient id="ah-peak" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="50%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#9333ea"/></linearGradient><linearGradient id="ah-swoosh-top" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="55%" stop-color="#6366f1"/><stop offset="100%" stop-color="#d946ef"/></linearGradient><linearGradient id="ah-swoosh-bot" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="70%" stop-color="#2563eb"/><stop offset="100%" stop-color="#00f2fe"/></linearGradient><linearGradient id="ah-pad-body" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#172036"/><stop offset="50%" stop-color="#0d1324"/><stop offset="100%" stop-color="#1b1433"/></linearGradient><linearGradient id="ah-pad-rim" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="50%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#e879f9"/></linearGradient></defs><!-- Upper orbital ring & right purple swoosh --><path d="M10 35 C7 20, 22 9, 41 11 C53 12, 60 19, 55 28 C53 31, 49 34, 45 35 C50 31, 52 25, 49 20 C45 14, 29 12, 18 19 C12 23, 10 29, 10 35 Z" fill="url(#ah-swoosh-top)"/><!-- Lower cyan-blue orbital swoosh --><path d="M8 46 C4 55, 16 61, 34 56 C41 54, 46 50, 49 46 L45 43 C41 47, 34 51, 25 53 C14 55, 8 52, 8 46 Z" fill="url(#ah-swoosh-bot)"/><!-- Triangle 'A' peak behind controller --><polygon points="32,3 50,31 41,31 32,16 23,31 14,31" fill="url(#ah-peak)" stroke="#090d1a" stroke-width="1.5" stroke-linejoin="round"/><!-- Shoulder bumpers --><path d="M16 25 Q21 21 26 24 L25 27 Q20 25 15 28 Z" fill="#00e5ff"/><path d="M48 25 Q43 21 38 24 L39 27 Q44 25 49 28 Z" fill="#d946ef"/><!-- Gamepad main body --><path d="M18 25 C14 25, 11 29, 9 36 C7 43, 6 50, 10 53 C14 55, 18 51, 22 45 C24 42, 26 42, 32 42 C38 42, 40 42, 42 45 C46 51, 50 55, 54 53 C58 50, 57 43, 55 36 C53 29, 50 25, 46 25 L39 25 L36 28 L28 28 L25 25 Z" fill="url(#ah-pad-body)" stroke="url(#ah-pad-rim)" stroke-width="1.8" stroke-linejoin="round"/><!-- Center touchpad & glowing cyan light bar --><polygon points="24,28 40,28 37,35 27,35" fill="#111a2e" stroke="#00e5ff" stroke-width="0.8"/><line x1="28" y1="33" x2="36" y2="33" stroke="#00f2fe" stroke-width="1.8" stroke-linecap="round"/><!-- D-Pad on left --><path d="M18 31 H21 V34 H24 V37 H21 V40 H18 V37 H15 V34 H18 Z" fill="#0c1222" stroke="#00e5ff" stroke-width="1.1" stroke-linejoin="round"/><!-- Action buttons on right --><circle cx="46" cy="31.5" r="2" fill="#d946ef"/><circle cx="49.5" cy="35" r="2" fill="#a855f7"/><circle cx="42.5" cy="35" r="2" fill="#00f2fe"/><circle cx="46" cy="38.5" r="2" fill="#3b82f6"/><!-- Left & right analog thumbsticks --><circle cx="25.5" cy="40.5" r="4.2" fill="#0b1020" stroke="#00f2fe" stroke-width="1.4"/><circle cx="25.5" cy="40.5" r="2.3" fill="#1e293b"/><circle cx="38.5" cy="40.5" r="4.2" fill="#0b1020" stroke="#e879f9" stroke-width="1.4"/><circle cx="38.5" cy="40.5" r="2.3" fill="#1e293b"/></svg><span>ARCADEHUB</span></a>
+      <ul class="nav-links">
+        <li><a class="is-active" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="tournaments.html">Tournaments</a></li>
+        <li><a href="party-events.html">Party & Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="btn nav-cta desktop-only" type="button" data-modal="booking">BOOK YOUR EXPERIENCE</button>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span></button>
+    </div>
+    <nav class="nav-drawer" aria-label="Mobile">
+      <a class="is-active" href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="tournaments.html">Tournaments</a>
+      <a href="party-events.html">Party & Events</a>
+      <a href="contact.html">Contact</a>
+      <button class="btn" type="button" data-modal="booking" style="margin-top:14px;width:100%">BOOK YOUR EXPERIENCE</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-media">
+        <img src="Assests/images/image-1.png" alt="Long neon-lit PC gaming hall with purple LED frames, racing chairs, and a central sofa facing a large screen">
+      </div>
+      <div class="wrap hero-copy">
+        <p class="kicker">Gaming & Esports Lounge</p>
+        <h1>ENTER THE NEXT LEVEL.</h1>
+        <p class="lead">Play harder. Compete smarter. Experience gaming without limits.</p>
+        <div class="btn-row">
+          <a class="btn" href="#zones">Explore Gaming</a>
+          <button class="btn btn-ghost" type="button" data-modal="booking">Book Your Experience</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap experience">
+        <div class="experience-visual reveal">
+          <img src="Assests/images/image-9.png" alt="Lounge sofas arranged in front of RGB gaming stations">
+          <img class="float-card" src="Assests/images/image-12.png" alt="Rows of dual-monitor desks under violet linear lighting">
+        </div>
+        <div class="experience-copy">
+          <p class="kicker">The ArcadeHub experience</p>
+          <h2>MORE THAN JUST A GAMING LOUNGE.</h2>
+          <p class="lead">A floor of high-performance stations, a social lounge in the middle of the hall, and rooms built for both casual nights and ranked matches.</p>
+          <div class="stack-note">
+            <article><h3>Premium infrastructure</h3><p class="muted">RGB towers, wide monitors and racing chairs line the hall in the photograph above.</p></article>
+            <article><h3>Social atmosphere</h3><p class="muted">Sofas sit between stations so squads can watch a match without leaving the floor.</p></article>
+            <article><h3>Competitive edge</h3><p class="muted">The same room scales from a quiet duo session to a full esports row.</p></article>
+            <article><h3>Next-gen entertainment</h3><p class="muted">Arcade aisles, simulators and VR share one destination.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="zones" style="background:var(--bg-2)">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Zones</p>
+          <h2>Six rooms. One floor plan.</h2>
+          <p class="muted">Each card is a real venue photograph from the ArcadeHub image set.</p>
+        </div>
+        <div class="grid-6">
+          <article class="zone-card glow-border" data-tilt>
+            <img src="Assests/images/image-4.png" alt="Dark PC arena with RGB towers, curved monitors, and cyan ceiling light strips">
+            <div class="zone-body"><span class="tag">01</span><h3>PC Gaming Arena</h3><p class="muted">Cyan strips over rows of glowing cases and curved displays.</p></div>
+          </article>
+          <article class="zone-card glow-border" data-tilt>
+            <img src="Assests/images/image-85.png" alt="Sectional sofa and coffee tables with controllers facing a large display">
+            <div class="zone-body"><span class="tag">02</span><h3>Console Gaming Lounge</h3><p class="muted">A sofa pit and controllers aimed at one shared screen.</p></div>
+          </article>
+          <article class="zone-card glow-border" data-tilt>
+            <img src="Assests/images/image-11.png" alt="Classic arcade cabinets outlined in orange, cyan, and magenta neon">
+            <div class="zone-body"><span class="tag">03</span><h3>Retro Arcade Zone</h3><p class="muted">Cabinet marquees and neon edges along a dark aisle of stools.</p></div>
+          </article>
+          <article class="zone-card glow-border" data-tilt>
+            <img src="Assests/images/image-100.png" alt="Four players in VR headsets holding motion controllers on a marked floor">
+            <div class="zone-body"><span class="tag">04</span><h3>Virtual Reality Arena</h3><p class="muted">Headsets, tracked guns and a floor grid under purple tubes.</p></div>
+          </article>
+          <article class="zone-card glow-border" data-tilt>
+            <img src="Assests/images/image-50.png" alt="Triple-monitor racing simulator with steering wheel, pedals and bucket seat">
+            <div class="zone-body"><span class="tag">05</span><h3>Racing Simulator Zone</h3><p class="muted">Triple screens, a wheel and a pedal deck in one rig.</p></div>
+          </article>
+          <article class="zone-card glow-border" data-tilt>
+            <img src="Assests/images/image-8.png" alt="Private brick-walled PC lounge with a neon den sign">
+            <div class="zone-body"><span class="tag">06</span><h3>VIP Gaming Lounge</h3><p class="muted">Brick walls, wall-mounted cases and a private neon den.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section arena">
+      <div class="wrap arena-layout">
+        <div>
+          <p class="kicker">Immersive floor</p>
+          <h2>STEP INSIDE THE GAME.</h2>
+          <p class="lead">Explore each zone of our gaming arena. Select an area below to view our live setups and floor infrastructure.</p>
+          <div class="hotspots" style="margin-top:22px">
+            <button class="hotspot is-on" type="button" data-img="Assests/images/image-20.png" data-tag="Zone 01" data-title="Monitor Wall &amp; Spectator Displays">
+              <div class="hotspot-content">
+                <img class="hotspot-thumb" src="Assests/images/image-20.png" alt="Monitor Wall thumbnail">
+                <div class="hotspot-text">
+                  <strong>Monitor Wall</strong>
+                  <span class="muted">Match footage and spectator screens sit above the stations.</span>
+                </div>
+              </div>
+            </button>
+            <button class="hotspot" type="button" data-img="Assests/images/image-89.png" data-tag="Zone 02" data-title="High-Performance RGB Stations">
+              <div class="hotspot-content">
+                <img class="hotspot-thumb" src="Assests/images/image-89.png" alt="RGB Stations thumbnail">
+                <div class="hotspot-text">
+                  <strong>RGB Stations</strong>
+                  <span class="muted">Desks glow from case fans, keyboards and edge lighting.</span>
+                </div>
+              </div>
+            </button>
+            <button class="hotspot" type="button" data-img="Assests/images/image-41.png" data-tag="Zone 03" data-title="Motion Racing Simulators">
+              <div class="hotspot-content">
+                <img class="hotspot-thumb" src="Assests/images/image-41.png" alt="Motion Rigs thumbnail">
+                <div class="hotspot-text">
+                  <strong>Motion Rigs</strong>
+                  <span class="muted">Triple-screen cockpits with wheels, pedals and motion seats.</span>
+                </div>
+              </div>
+            </button>
+            <button class="hotspot" type="button" data-img="Assests/images/image-64.png" data-tag="Zone 04" data-title="Console Lounge &amp; Social Core">
+              <div class="hotspot-content">
+                <img class="hotspot-thumb" src="Assests/images/image-64.png" alt="Lounge Core thumbnail">
+                <div class="hotspot-text">
+                  <strong>Lounge Core</strong>
+                  <span class="muted">Sofas and 4K screens keep the floor social between rounds.</span>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="arena-stage" id="arena-stage-box">
+          <img id="arena-main-img" src="Assests/images/image-20.png" alt="Monitor Wall &amp; Spectator Displays">
+          <div class="arena-image-caption">
+            <span class="arena-tag" id="arena-caption-tag">Zone 01</span>
+            <h3 id="arena-caption-title">Monitor Wall &amp; Spectator Displays</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Featured play</p>
+          <h2>What the floor is built to run.</h2>
+        </div>
+        <div class="grid-6">
+          <article class="editorial-card"><img src="Assests/images/image-35.png" alt="Linked racing cabinets with steering wheels and glowing seats"><div><h3>Racing Games</h3><p class="muted">Sit-down cabinets with wheels, pedals and linked screens.</p></div></article>
+          <article class="editorial-card"><img src="Assests/images/image-5.png" alt="Arcade floor with ticket games, neon rings and a light-gun cabinet"><div><h3>Arcade Showdowns</h3><p class="muted">Ticket games and light-gun cabinets under ring lights.</p></div></article>
+          <article class="editorial-card"><img src="Assests/images/image-55.png" alt="Player shooting a basketball into an arcade hoop machine"><div><h3>Sports Challenges</h3><p class="muted">Basketball skill machines on an open court-style floor.</p></div></article>
+          <article class="editorial-card"><img src="Assests/images/image-30.png" alt="Headset players at a LAN row with a large character mural"><div><h3>Competitive Shooters</h3><p class="muted">Headsets, mice and a mural wall behind a match row.</p></div></article>
+          <article class="editorial-card"><img src="Assests/images/image-99.png" alt="Dual monitors showing wide landscapes in a violet arena"><div><h3>Scenic Adventure Setups</h3><p class="muted">Ultrawide views across paired monitors in the main arena.</p></div></article>
+          <article class="editorial-card"><img src="Assests/images/image-7.png" alt="Busy arcade aisle with racing seats and prize machines"><div><h3>Floor-Wide Multiplayer</h3><p class="muted">Drivers, walk-up machines and a crowd sharing one aisle.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--bg-2)">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Why players stay</p>
+          <h2>WHY GAMERS CHOOSE US</h2>
+        </div>
+        <div class="why-us-grid">
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-15.png" alt="Numbered PC stations with wall-mounted RGB cases" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>High-Performance Gaming PCs</h3>
+              <p>Numbered desks and wall-mounted liquid-cooled cases ready for maximum frame rates.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-77.png" alt="Console lounge with controllers on low tables" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Latest Gaming Consoles</h3>
+              <p>4K HDR displays and wireless controllers set up for competitive sports and couch co-op.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-90.png" alt="Close-up of a controller with illuminated face buttons and a lit stick" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Professional Gaming Peripherals</h3>
+              <p>Tournament mechanical keyboards, high-DPI mice, lit pads, and studio gaming headsets.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-71.png" alt="Esports stage with a hanging cube screen and facing team desks" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Ultra-Fast Internet</h3>
+              <p>Stage matches and LAN rows are laid out for stable, low-latency play.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-92.png" alt="Long row of gaming chairs in a private lounge" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Comfortable Gaming Stations</h3>
+              <p>High-back chairs and long sessions without a cramped desk.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-80.png" alt="Service counter with a session menu on the wall screen" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Expert Gaming Support</h3>
+              <p>A front desk lists session types so staff can set you up quickly.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-101.png" alt="Four players in VR headsets holding motion controllers on a marked floor" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Virtual Reality Arena</h3>
+              <p>Room-scale tracking, wireless head-mounted displays, and haptic motion controllers.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-42.png" alt="Triple-monitor racing simulator with steering wheel, pedals and bucket seat" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Motion Racing Simulators</h3>
+              <p>Direct-drive force-feedback wheels, hydraulic pedal sets, and triple-monitor cockpits.</p>
+            </div>
+          </article>
+          <article class="why-card reveal">
+            <div class="why-card-media">
+              <img src="Assests/images/image-87.png" alt="Classic arcade cabinets outlined in orange, cyan, and magenta neon" loading="lazy">
+            </div>
+            <div class="why-card-body">
+              <h3>Classic Arcade Experience</h3>
+              <p>Retro arcade cabinets, rhythm games, and head-to-head fighting setups.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="membership">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Passes & nights</p>
+          <h2>Membership, events and the floor itself.</h2>
+          <p class="demo-note">Sample prices and event details for layout demonstration. Confirm live rates before publishing.</p>
+        </div>
+        <div class="grid-4">
+          <article class="price-card"><span class="tag">Pass</span><h3>Starter Pass</h3><p class="amount">$29</p><p class="meta">2-hour session · PC or console</p><ul><li>One zone</li><li>Standard station</li><li>Member night access</li></ul><button class="btn" type="button" data-modal="booking" data-preset="Arcade Gaming">Book Starter</button></article>
+          <article class="price-card"><span class="tag">Pass</span><h3>Gamer Pass</h3><p class="amount">$49</p><p class="meta">4-hour session · multi-zone</p><ul><li>PC and console</li><li>Headset included</li><li>Event discounts</li></ul><button class="btn" type="button" data-modal="booking" data-preset="PC Gaming">Book Gamer</button></article>
+          <article class="price-card is-featured"><span class="tag">Featured</span><h3>Pro Gamer Pass</h3><p class="amount">$79</p><p class="meta">6-hour session · priority desks</p><ul><li>Arena row seating</li><li>Sim or VR add-on</li><li>Tournament entry perk</li></ul><button class="btn" type="button" data-modal="booking" data-preset="Esports Tournament">Book Pro</button></article>
+          <article class="price-card"><span class="tag">Pass</span><h3>VIP Unlimited Pass</h3><p class="amount">$129</p><p class="meta">Open play · private lounge</p><ul><li>VIP room</li><li>Guest hour</li><li>Priority booking</li></ul><button class="btn" type="button" data-modal="booking" data-preset="Private Gaming Event">Book VIP</button></article>
+        </div>
+
+        <h3 class="subhead">Upcoming esports nights</h3>
+        <div class="grid-4">
+          <article class="event-card"><img src="Assests/images/image-21.png" alt="Teams seated under a suspended match screen"><div class="event-body"><span class="status">REGISTRATION OPEN</span><h3>Stage Cup</h3><p class="meta">12 Apr · Team arena · Sample prize pool $2,000</p><a class="btn btn-ghost" href="tournaments.html">Event details</a></div></article>
+          <article class="event-card"><img src="Assests/images/image-65.png" alt="Spectator bowl facing a multi-screen esports stage"><div class="event-body"><span class="status">REGISTRATION OPEN</span><h3>Arena Finals</h3><p class="meta">26 Apr · Spectator stage · Sample prize pool $5,000</p><a class="btn btn-ghost" href="tournaments.html">Event details</a></div></article>
+          <article class="event-card"><img src="Assests/images/image-25.png" alt="LAN room with numbered PC stations and players in headsets"><div class="event-body"><span class="status">WAITLIST</span><h3>LAN Saturday</h3><p class="meta">03 May · PC row · Bragging rights</p><a class="btn btn-ghost" href="tournaments.html">Event details</a></div></article>
+          <article class="event-card"><img src="Assests/images/image-24.png" alt="Close view of a competitive player at a keyboard"><div class="event-body"><span class="status">REGISTRATION OPEN</span><h3>Duo Clash</h3><p class="meta">17 May · Shooter night · Sample prize pool $800</p><a class="btn btn-ghost" href="tournaments.html">Event details</a></div></article>
+        </div>
+        <p class="demo-note">Countdown styling is visual only. Dates above are editable sample events, not a live clock.</p>
+
+        <h3 class="subhead">Experience gallery</h3>
+        <p class="muted" style="margin-bottom:20px">Click any frame to view the venue in high-resolution detail.</p>
+        <div class="gallery-grid-4x4">
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-2.png" alt="Racing arcade aisle with motorcycle and driving cabinets" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-2.png" data-alt="Racing arcade aisle with motorcycle and driving cabinets">
+              <span class="gallery-card-badge">Simulators</span>
+              <span class="gallery-card-title">Racing Arcade Aisle</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-3.png" alt="Prize arcade under geometric ceiling lights" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-3.png" data-alt="Prize arcade under geometric ceiling lights">
+              <span class="gallery-card-badge">Arcade</span>
+              <span class="gallery-card-title">Prize &amp; Claw Arcade</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-6.png" alt="Motorcycle arcade machines beside red racing cabinets" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-6.png" data-alt="Motorcycle arcade machines beside red racing cabinets">
+              <span class="gallery-card-badge">Racing</span>
+              <span class="gallery-card-title">Superbike Racing Pods</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-10.png" alt="Symmetric aisle of pink-lit arcade cabinets" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-10.png" data-alt="Symmetric aisle of pink-lit arcade cabinets">
+              <span class="gallery-card-badge">Retro</span>
+              <span class="gallery-card-title">Neon Retro Alley</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-40.png" alt="Motion racing cabinets with illuminated wheels" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-40.png" data-alt="Motion racing cabinets with illuminated wheels">
+              <span class="gallery-card-badge">Simulators</span>
+              <span class="gallery-card-title">Force-Feedback Rigs</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-45.png" alt="Motorcycle racing pods under magenta light" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-45.png" data-alt="Motorcycle racing pods under magenta light">
+              <span class="gallery-card-badge">Racing</span>
+              <span class="gallery-card-title">Cyberpunk Racing Bays</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-70.png" alt="Private room with PCs, a dining table and a projector" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-70.png" data-alt="Private room with PCs, a dining table and a projector">
+              <span class="gallery-card-badge">VIP Den</span>
+              <span class="gallery-card-title">Private Squad Lounge</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-95.png" alt="Curved purple arcade hall with claw machines" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-95.png" data-alt="Curved purple arcade hall with claw machines">
+              <span class="gallery-card-badge">Arcade</span>
+              <span class="gallery-card-title">Neon Claw Concourse</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-102.png" alt="VR players with motion controllers" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-102.png" data-alt="VR players with motion controllers">
+              <span class="gallery-card-badge">VR Experience</span>
+              <span class="gallery-card-title">Room-Scale VR Arena</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-103.png" alt="VR room with a neon triangle logo" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-103.png" data-alt="VR room with a neon triangle logo">
+              <span class="gallery-card-badge">VR Experience</span>
+              <span class="gallery-card-title">VR Tactical Chamber</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-56.png" alt="Target and shooter arcade cabinets" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-56.png" data-alt="Target and shooter arcade cabinets">
+              <span class="gallery-card-badge">Arcade</span>
+              <span class="gallery-card-title">Target &amp; Shooter Games</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-60.png" alt="Player shooting at basketball arcade machine" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-60.png" data-alt="Player shooting at basketball arcade machine">
+              <span class="gallery-card-badge">Arcade</span>
+              <span class="gallery-card-title">Sports Challenge Floor</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-26.png" alt="Competitive players at LAN tournament desks" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-26.png" data-alt="Competitive players at LAN tournament desks">
+              <span class="gallery-card-badge">Esports</span>
+              <span class="gallery-card-title">Competitive LAN Row</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-96.png" alt="Ultrawide dual-monitor arena desks" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-96.png" data-alt="Ultrawide dual-monitor arena desks">
+              <span class="gallery-card-badge">PC Arena</span>
+              <span class="gallery-card-title">Ultrawide Arena Desks</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-61.png" alt="Mixed crowd in multiplayer arcade zone" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-61.png" data-alt="Mixed crowd in multiplayer arcade zone">
+              <span class="gallery-card-badge">Arcade</span>
+              <span class="gallery-card-title">Multiplayer Concourse</span>
+            </button>
+          </article>
+          <article class="gallery-card reveal">
+            <img src="Assests/images/image-74.png" alt="Sectional sofa facing large console gaming display" loading="lazy">
+            <button type="button" data-lightbox="Assests/images/image-74.png" data-alt="Sectional sofa facing large console gaming display">
+              <span class="gallery-card-badge">Console</span>
+              <span class="gallery-card-title">4K Console Lounge</span>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background:var(--bg-2)">
+      <div class="wrap">
+        <div class="community">
+          <div>
+            <p class="kicker">Community</p>
+            <h2>YOUR PEOPLE. YOUR GAME. YOUR ARENA.</h2>
+            <p class="lead">The aisle in this photo is the point: drivers on one side, friends on the machines beside them, and a crowd that stays for the next round.</p>
+            <div class="stack-note">
+              <article><h3>Multiplayer nights</h3><p class="muted">Linked cabinets and LAN rows for squads.</p></article>
+              <article><h3>Community challenges</h3><p class="muted">High-score boards on sports and arcade machines.</p></article>
+              <article><h3>Team competitions</h3><p class="muted">Stage desks when the night turns ranked.</p></article>
+              <article><h3>Social play</h3><p class="muted">Sofas, party tables and walk-up games between matches.</p></article>
+            </div>
+          </div>
+          <img src="Assests/images/image-57.png" alt="Crowded arcade aisle with people at racing seats and prize machines" loading="lazy">
+        </div>
+
+        <h3 class="subhead">Sample voices</h3>
+        <p class="demo-note">Illustrative sample reviews for the slider. They are not verified customer feedback.</p>
+        <div class="swiper testimonial-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <article class="testimonial">
+                <div class="testimonial-top">
+                  <p class="stars" aria-label="5 stars">★★★★★</p>
+                  <span class="testimonial-verified">Verified Guest</span>
+                </div>
+                <p class="testimonial-quote">"The PC row felt like a private arena. 240Hz monitors, ultra-low ping, and zero lag. We stayed for the full block and never waited on a station."</p>
+                <div class="testimonial-profile">
+                  <div class="profile-avatar">MV</div>
+                  <div class="profile-info">
+                    <strong class="profile-name">Marcus Vance</strong>
+                    <span class="profile-role">PC Gaming Session</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="testimonial">
+                <div class="testimonial-top">
+                  <p class="stars" aria-label="5 stars">★★★★★</p>
+                  <span class="testimonial-verified">Verified Guest</span>
+                </div>
+                <p class="testimonial-quote">"Birthday setup was already in the room: consoles on, table ready, and the kids rotated stations smoothly without any chaos."</p>
+                <div class="testimonial-profile">
+                  <div class="profile-avatar">SJ</div>
+                  <div class="profile-info">
+                    <strong class="profile-name">Sarah Jenkins</strong>
+                    <span class="profile-role">Birthday Party Host</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="testimonial">
+                <div class="testimonial-top">
+                  <p class="stars" aria-label="5 stars">★★★★★</p>
+                  <span class="testimonial-verified">Verified Guest</span>
+                </div>
+                <p class="testimonial-quote">"The simulator wheel and triple screens made a short race feel like a full session. Pedal response and force-feedback were amazing."</p>
+                <div class="testimonial-profile">
+                  <div class="profile-avatar">DK</div>
+                  <div class="profile-info">
+                    <strong class="profile-name">David Kim</strong>
+                    <span class="profile-role">Racing Simulator</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="swiper-slide">
+              <article class="testimonial">
+                <div class="testimonial-top">
+                  <p class="stars" aria-label="5 stars">★★★★★</p>
+                  <span class="testimonial-verified">Verified Guest</span>
+                </div>
+                <p class="testimonial-quote">"VR was a separate room with space to move. Four of us played tactical co-op without bumping into each other or the PC floor."</p>
+                <div class="testimonial-profile">
+                  <div class="profile-avatar">ER</div>
+                  <div class="profile-info">
+                    <strong class="profile-name">Elena Rostova</strong>
+                    <span class="profile-role">VR Squad Leader</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="final-cta">
+          <img src="Assests/images/image-97.png" alt="Atmospheric PC arena used as the closing booking backdrop" loading="lazy">
+          <div class="inner">
+            <h2>YOUR NEXT GAME STARTS HERE.</h2>
+            <p class="lead">Bring your squad, challenge your friends and experience the ultimate gaming destination.</p>
+            <button class="btn" type="button" data-modal="booking">BOOK YOUR GAMING SESSION</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a class="logo footer-brand" href="index.html"><svg class="brand-logo" viewBox="0 0 64 64" width="38" height="38" aria-hidden="true" focusable="false"><defs><linearGradient id="ah-peak" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="50%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#9333ea"/></linearGradient><linearGradient id="ah-swoosh-top" x1="0%" y1="100%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="55%" stop-color="#6366f1"/><stop offset="100%" stop-color="#d946ef"/></linearGradient><linearGradient id="ah-swoosh-bot" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="70%" stop-color="#2563eb"/><stop offset="100%" stop-color="#00f2fe"/></linearGradient><linearGradient id="ah-pad-body" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#172036"/><stop offset="50%" stop-color="#0d1324"/><stop offset="100%" stop-color="#1b1433"/></linearGradient><linearGradient id="ah-pad-rim" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#00f2fe"/><stop offset="50%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#e879f9"/></linearGradient></defs><!-- Upper orbital ring & right purple swoosh --><path d="M10 35 C7 20, 22 9, 41 11 C53 12, 60 19, 55 28 C53 31, 49 34, 45 35 C50 31, 52 25, 49 20 C45 14, 29 12, 18 19 C12 23, 10 29, 10 35 Z" fill="url(#ah-swoosh-top)"/><!-- Lower cyan-blue orbital swoosh --><path d="M8 46 C4 55, 16 61, 34 56 C41 54, 46 50, 49 46 L45 43 C41 47, 34 51, 25 53 C14 55, 8 52, 8 46 Z" fill="url(#ah-swoosh-bot)"/><!-- Triangle 'A' peak behind controller --><polygon points="32,3 50,31 41,31 32,16 23,31 14,31" fill="url(#ah-peak)" stroke="#090d1a" stroke-width="1.5" stroke-linejoin="round"/><!-- Shoulder bumpers --><path d="M16 25 Q21 21 26 24 L25 27 Q20 25 15 28 Z" fill="#00e5ff"/><path d="M48 25 Q43 21 38 24 L39 27 Q44 25 49 28 Z" fill="#d946ef"/><!-- Gamepad main body --><path d="M18 25 C14 25, 11 29, 9 36 C7 43, 6 50, 10 53 C14 55, 18 51, 22 45 C24 42, 26 42, 32 42 C38 42, 40 42, 42 45 C46 51, 50 55, 54 53 C58 50, 57 43, 55 36 C53 29, 50 25, 46 25 L39 25 L36 28 L28 28 L25 25 Z" fill="url(#ah-pad-body)" stroke="url(#ah-pad-rim)" stroke-width="1.8" stroke-linejoin="round"/><!-- Center touchpad & glowing cyan light bar --><polygon points="24,28 40,28 37,35 27,35" fill="#111a2e" stroke="#00e5ff" stroke-width="0.8"/><line x1="28" y1="33" x2="36" y2="33" stroke="#00f2fe" stroke-width="1.8" stroke-linecap="round"/><!-- D-Pad on left --><path d="M18 31 H21 V34 H24 V37 H21 V40 H18 V37 H15 V34 H18 Z" fill="#0c1222" stroke="#00e5ff" stroke-width="1.1" stroke-linejoin="round"/><!-- Action buttons on right --><circle cx="46" cy="31.5" r="2" fill="#d946ef"/><circle cx="49.5" cy="35" r="2" fill="#a855f7"/><circle cx="42.5" cy="35" r="2" fill="#00f2fe"/><circle cx="46" cy="38.5" r="2" fill="#3b82f6"/><!-- Left & right analog thumbsticks --><circle cx="25.5" cy="40.5" r="4.2" fill="#0b1020" stroke="#00f2fe" stroke-width="1.4"/><circle cx="25.5" cy="40.5" r="2.3" fill="#1e293b"/><circle cx="38.5" cy="40.5" r="4.2" fill="#0b1020" stroke="#e879f9" stroke-width="1.4"/><circle cx="38.5" cy="40.5" r="2.3" fill="#1e293b"/></svg><span>ARCADEHUB</span></a>
+          <p class="muted footer-desc">A premium gaming and esports lounge for stations, arcades, simulators, VR and private nights.</p>
+          <div class="footer-socials" aria-label="Social media">
+            <a href="contact.html" aria-label="Instagram" title="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="contact.html" aria-label="Facebook" title="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="contact.html" aria-label="X" title="X">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="contact.html" aria-label="YouTube" title="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h3>Visit</h3>
+          <ul>
+            <li>1200 Arena Boulevard, Suite 400</li>
+            <li>Your City — edit this address</li>
+            <li>hello@arcadehub.example</li>
+            <li>+1 (000) 000-0000</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="tournaments.html">Tournaments</a></li>
+            <li><a href="party-events.html">Party &amp; Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Play</h3>
+          <ul>
+            <li>PC Gaming Arena</li>
+            <li>Console Lounge</li>
+            <li>Retro Arcade</li>
+            <li>VR Arena</li>
+            <li>Racing Simulators</li>
+            <li>VIP Lounge</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Hours</h3>
+          <ul>
+            <li>Mon–Fri · 12:00–00:00</li>
+            <li>Saturday · 10:00–02:00</li>
+            <li>Sunday · 10:00–00:00</li>
+            <li>Public holidays · 12:00–22:00</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-base">
+        <span>© 2026 ArcadeHub. Sample site content.</span>
+      </div>
+    </div>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top" title="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg></button>
+
+  <div class="modal" id="booking" role="dialog" aria-modal="true" aria-labelledby="booking-title" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" type="button" data-close aria-label="Close">×</button>
+      <p class="kicker">Reserve</p>
+      <h2 id="booking-title">LET'S GET YOU IN THE GAME</h2>
+      <p class="muted">Choose your gaming experience and reserve your spot at ArcadeHub.</p>
+      <form class="form" data-demo-form style="margin-top:16px">
+        <label>Full Name<input name="name" required autocomplete="name"><span class="field-error"></span></label>
+        <label>Email Address<input name="email" type="email" required autocomplete="email"><span class="field-error"></span></label>
+        <label>Phone Number<input name="phone" type="tel" required autocomplete="tel"><span class="field-error"></span></label>
+        <label>Experience Type
+          <select name="experience" data-preset-target required>
+            <option value="">Select</option>
+            <option>Arcade Gaming</option>
+            <option>PC Gaming</option>
+            <option>Console Gaming</option>
+            <option>VR Experience</option>
+            <option>Esports Tournament</option>
+            <option>Birthday Party</option>
+            <option>Private Gaming Event</option>
+          </select>
+          <span class="field-error"></span>
+        </label>
+        <label>Preferred Date<input name="date" type="date" required><span class="field-error"></span></label>
+        <label>Preferred Time<input name="time" type="time" required><span class="field-error"></span></label>
+        <label>Number of Players<input name="players" type="number" min="1" required><span class="field-error"></span></label>
+        <label>Additional Requirements<textarea name="notes"></textarea></label>
+        <p class="form-success" tabindex="-1">Request captured on this page only. No booking is confirmed until a backend is connected.</p>
+        <button class="btn" type="submit">Submit Reservation</button>
+      </form>
+    </div>
+  </div>
+  <div class="modal" id="lightbox" role="dialog" aria-modal="true" aria-label="Image preview" aria-hidden="true">
+    <div class="modal-card lightbox-card">
+      <button class="modal-close" type="button" data-close aria-label="Close preview">×</button>
+      <img alt="">
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.18/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="assets/js/images-map.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/interactions.js"></script>
+  <script src="assets/js/three-scene.js"></script>
+</body>
+</html>

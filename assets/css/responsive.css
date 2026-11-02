@@ -1,0 +1,75 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-6 { grid-template-columns: repeat(2, 1fr); }
+  .why-us-grid { grid-template-columns: repeat(2, 1fr); }
+  .gallery-grid-4x4 { grid-template-columns: repeat(2, 1fr); }
+  .grid-4, .stat-grid, .steps, .bracket { grid-template-columns: repeat(2, 1fr); }
+  .experience, .split, .party-builder, .community, .pc-stage, .racing-grid, .arena-layout, .two-col-form, .feature-row, .feature-row.reverse {
+    grid-template-columns: 1fr;
+  }
+  .feature-row.reverse .feature-copy { order: 0; }
+  .experience-visual { min-height: 420px; }
+  .price-card.is-featured { transform: none; }
+  .hero-canvas { width: 280px; height: 280px; top: 18vh; right: 4vw; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 1100px) {
+  .nav-links, .nav-cta.desktop-only { display: none; }
+  .nav-toggle { display: grid; place-items: center; }
+  .site-header.is-open .nav-drawer { display: block; }
+  .site-header.is-open {
+    background: rgba(8, 10, 18, 0.94);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+}
+
+@media (max-width: 1023px) {
+  .hscroll { min-height: 0; display: block; overflow-x: auto; padding-bottom: 8px; }
+}
+
+@media (max-width: 767px) {
+  .wrap { width: min(var(--wrap), calc(100% - 28px)); }
+  .grid-6, .grid-4, .grid-2, .stat-grid, .steps, .bracket, .footer-grid,
+  .experience, .split, .party-builder, .community, .pc-stage, .racing-grid, .arena-layout,
+  .two-col-form, .feature-row, .feature-row.reverse, .why-us-grid {
+    grid-template-columns: 1fr;
+  }
+  .gallery-grid-4x4, .form-row-2 { grid-template-columns: 1fr; }
+  .enquiry-card { padding: 28px 20px; border-radius: 22px; }
+  .feature-row.reverse .feature-copy { order: 0; }
+  .hero { min-height: 100svh; padding-top: 110px; align-items: center; justify-items: center; }
+  .hero h1 { font-size: clamp(2.3rem, 12vw, 3.4rem); }
+  .hero-canvas { width: 160px; height: 160px; top: 96px; right: 10px; opacity: 0.85; }
+  .scroll-cue { display: none; }
+  .arena-stage { height: 340px; }
+  .experience-visual { min-height: 0; }
+  .experience-visual img { width: 100%; height: 260px; }
+  .experience-visual img.float-card { position: relative; width: 100%; height: 200px; margin-top: -40px; right: auto; bottom: auto; }
+  .zone-card { min-height: 320px; }
+  .feature-row img, .split img, .community img, .pc-stage img, .racing-grid img { height: 240px; }
+  .page-hero { min-height: 52vh; padding: 110px 0 42px; align-items: center; justify-items: center; }
+  .price-card.is-featured { transform: none; }
+  .gallery-slide { height: 240px; }
+  .site-header { inset: 10px 10px auto; }
+  .footer-base { flex-direction: column; }
+  .hours div { flex-direction: column; }
+  .modal-card { padding: 22px 16px 16px; }
+}
+
+@media (min-width: 1280px) {
+  .nav-links a { padding-inline: 11px; }
+}
+
+@media (min-width: 1600px) {
+  :root { --wrap: 1320px; }
+  .hero h1 { font-size: 6.8rem; }
+}
+
+@media (max-width: 360px) {
+  .btn { width: 100%; }
+  .btn-row .btn { width: 100%; }
+  .logo { letter-spacing: 0.08em; font-size: 0.78rem; }
+}

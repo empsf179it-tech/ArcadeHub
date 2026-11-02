@@ -1,0 +1,45 @@
+@keyframes rush {
+  from { transform: translateX(0); }
+  to { transform: translateX(-41px); }
+}
+
+@keyframes cue {
+  0%, 100% { transform: scaleY(0.4); transform-origin: top; opacity: 0.4; }
+  50% { transform: scaleY(1); opacity: 1; }
+}
+
+.scroll-cue b { animation: cue 1.8s ease-in-out infinite; }
+
+@keyframes floaty {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.float-card { animation: floaty 6s ease-in-out infinite; }
+
+@keyframes heroZoomFrontBack {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.12); }
+}
+
+.hero-media {
+  overflow: hidden;
+}
+
+.hero-media img {
+  animation: heroZoomFrontBack 8s ease-in-out infinite;
+  transform-origin: center center;
+  will-change: transform;
+}
+
+.reveal { opacity: 0; transform: translateY(24px); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+  .speed-lines { display: none; }
+  .cursor { display: none !important; }
+}
