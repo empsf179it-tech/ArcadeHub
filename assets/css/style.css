@@ -245,6 +245,7 @@ h1, h2, .display {
 .nav-drawer {
   display: none;
   padding: 8px 14px 18px;
+  text-align: center;
 }
 
 .nav-drawer a {
@@ -252,6 +253,7 @@ h1, h2, .display {
   padding: 12px 4px;
   border-bottom: 1px solid var(--border);
   color: var(--muted);
+  text-align: center;
 }
 
 .nav-drawer a.is-active { color: white; }
@@ -654,8 +656,42 @@ h1, h2, .display {
 
 .event-card { min-height: 390px; }
 .event-card img { position: absolute; inset: 0; height: 100%; }
+.event-card .event-body {
+  position: absolute;
+  inset: auto 0 0 0;
+  height: 222px;
+  padding: 26px 22px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: linear-gradient(180deg, rgba(6, 9, 18, 0) 0%, rgba(6, 9, 18, 0.86) 20%, rgba(6, 9, 18, 0.98) 100%);
+}
+.event-card .status {
+  display: inline-block;
+  margin-bottom: 6px;
+}
+.event-card h3 {
+  margin: 0 0 8px;
+  line-height: 1.25;
+}
+.event-card .meta {
+  margin: 0;
+  color: #e2e8f0;
+  line-height: 1.5;
+}
+.event-card .btn {
+  margin-top: auto;
+}
 .meta { color: var(--muted); font-size: 0.92rem; }
-.status { color: var(--pink); font-family: var(--font-display); font-size: 0.7rem; letter-spacing: 0.12em; }
+.status {
+  color: #6ef7ff;
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.95);
+}
 
 .hscroll { overflow: hidden; min-height: 70vh; display: flex; align-items: center; }
 .hscroll-track { display: flex; gap: 16px; width: max-content; padding-bottom: 10px; }
